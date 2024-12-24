@@ -2,7 +2,7 @@ package com.alizardo;
 
 import javax.ejb.Stateless;
 
-@Stateless(name = "RemoteHello")
+@Stateless(name = "OrderService")
 public class OrderServiceBean implements OrderService {
 
     @Override
